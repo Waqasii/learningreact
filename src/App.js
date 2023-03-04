@@ -9,10 +9,11 @@ import ClassEvent from './components/ClassEvent'
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponents from './components/ConditionalComponent';
 import ListRendering from './components/ListRendering';
+import Form from './components/Form'
 function App() {
   return (
     <div class='App'>
-      <ListRendering />
+      <Form />
     </div>
 
   );
