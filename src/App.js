@@ -10,10 +10,13 @@ import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponents from './components/ConditionalComponent';
 import ListRendering from './components/ListRendering';
 import Form from './components/Form'
+import Todo from './components/Todo'
+import InlineComponents from './components/InlineComponents';
 function App() {
   return (
-    <div class='App'>
-      <Form />
+    <div className='App'>
+      <Todo />
+      <InlineComponents />
     </div>
 
   );
